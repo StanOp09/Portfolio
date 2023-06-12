@@ -1,0 +1,227 @@
+/* Set universal element to no padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the bcackground color of webpage and define font-family */
+body {
+    background-color: rgba(116, 101, 101, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set common and repeated colors to reference in future */
+:root {
+    --light: rgb(221, 196, 196);
+    --dark: rgb(3, 3, 87);
+}
+
+/* Increased the font size and color of main header */
+h1 {
+    font-size: 300%;
+    color: var(--light);
+}
+
+/* Set the background of header */
+.header-background {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+}
+
+/*  Styled the nav bar */
+header nav ul li {
+    margin: 20px;
+    display: inline;
+    font-size: 120%;
+}
+
+/* Removed hyperlink set the color of links */
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+/* Styled h2 */
+header h2 {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--light);
+    font-size: 250%;
+    margin-left: 100px;
+}
+
+/* Inserted image at subheader */
+.subheader-image {
+<<<<<<< HEAD
+    background-image: url(../images/neom-t3dlLOhdEzs-unsplash.jpg);
+=======
+    background-image: url(/Challenge2/assets/images/neom-t3dlLOhdEzs-unsplash.jpg);
+>>>>>>> 37e3a22dd131b95210ff32f9b3ad819a6cc30be4
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+
+/* Justified content for accessiblity */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Create "About Me" Nav box */
+.navbox_aboutme {
+    width: 11vw;
+    height: 120px;
+    border-right: 5px solid var(--dark);
+    padding: 20px;
+    margin: 30px;
+    line-height: 1.5;
+    text-align: right;
+    font-size: 300%;
+}
+
+/* Create and style paragraph */
+.first-content {
+    line-height: 24px;
+    text-align: justify;
+    width: 1530px;
+    padding: 40px 30px 0 0;
+}
+
+/* Create "Work" Nav box */
+.navbox_work {
+    width: 11vw;
+    height: 89vh;
+    border-right: 5px solid var(--dark);
+    padding: 20px;
+    margin: 30px;
+    text-align: right;
+    font-size: 300%;
+}
+
+/* Define container characteristics for sub-boxes for each project title */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 83vw;
+    height: 92vh;
+    margin-top: 36px;
+}
+
+/* Set the width and height of bigger box for "Alpha Romeo Project Report" */
+.box2 {
+    width: 150px;
+    height: 70px;
+    background-color: var(--light);
+    padding-top: 10px;
+    margin-top: 300px;
+    line-height: 1.5;
+    color: var(--dark);
+}
+
+/* Inserted image for "Alpha Romeo Project Report" */
+.box2-image {
+    background-image: url(../images/pexels-adrian-regeci-13629582.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 400px;
+    width: 80vw;
+    border: 10px solid var(--light);
+}
+
+/* Set the width and height of smaller boxes */
+.box3 {
+    width: 150px;
+    height: 70px;
+    background-color: var(--light);
+    padding-top: 10px;
+    margin-top: 100px;
+    line-height: 1.5;
+    color: var(--dark);
+}
+
+/* Inserted image for "Astin Martin Project Report" */
+.box3-image {
+    background-image: url(../images/pexels-josh-kobayashi-4083523.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 200px;
+    width: 47%;
+    border: 10px solid var(--light);
+}
+
+/* Inserted image for "1987 Jaguar Project Report" */
+.box4-image {
+    background-image: url(../images/pexels-ivan-kazlouski-12175805.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 200px;
+    width: 47%;
+    border: 10px solid var(--light);
+}
+
+/* Inserted image for "The Hummer Project Report" */
+.box5-image {
+    background-image: url(../images/pexels-kaan-durmuş-9457133.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 200px;
+    width: 47%;
+    border: 10px solid var(--light);
+}
+
+/* Inserted image for "Sports Cars Project Report" */
+.box6-image {
+    background-image: url(../images/pexels-albin-berlin-919073.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 200px;
+    width: 47%;
+    border: 10px solid var(--light);
+}
+
+/* Create "Contact Me" Nav box */
+.navbox_contactme {
+    width: 11vw;
+    height: 120px;
+    border-right: 5px solid var(--dark);
+    padding: 20px;
+    margin: 30px;
+    line-height: 1.5;
+    text-align: right;
+    font-size: 300%;
+}
+
+/* Created general styling of Contact Me section */
+.list-format {
+    display: flex;
+    align-items: center;
+}
+
+/* Created styling of Contact Me lists */
+.list-format li {
+    list-style-type: none;
+    margin: 0 70px;
+    font-size: 150%;
+    padding: 50px;
+}
+
+/* @media screen and (max-width: 992) {
+    .cards {
+        width: 100%;
+    }
+
+@media screen and (max-width: 768) {
+    .cards {
+        width: 100%;
+    }
+    .header-background {
+        background-color: orange; 
+    }
+} */
