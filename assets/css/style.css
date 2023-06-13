@@ -57,7 +57,7 @@ header h2 {
 
 /* Inserted image at subheader */
 .subheader-image {
-    background-image: url(../images/neom-t3dlLOhdEzs-unsplash.jpg);
+    background-image: url(../images/neom-t3dlLOhdEzs-unsplash);
     background-size: cover;
     background-position: center;    
     height: 120px;
