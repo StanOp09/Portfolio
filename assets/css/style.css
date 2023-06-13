@@ -57,11 +57,7 @@ header h2 {
 
 /* Inserted image at subheader */
 .subheader-image {
-<<<<<<< HEAD
     background-image: url(../images/neom-t3dlLOhdEzs-unsplash.jpg);
-=======
-    background-image: url(/Challenge2/assets/images/neom-t3dlLOhdEzs-unsplash.jpg);
->>>>>>> 37e3a22dd131b95210ff32f9b3ad819a6cc30be4
     background-size: cover;
     background-position: center;    
     height: 120px;
@@ -87,7 +83,7 @@ header h2 {
 
 /* Create and style paragraph */
 .first-content {
-    line-height: 24px;
+    line-height: 18px;
     text-align: justify;
     width: 1530px;
     padding: 40px 30px 0 0;
@@ -95,7 +91,7 @@ header h2 {
 
 /* Create "Work" Nav box */
 .navbox_work {
-    width: 11vw;
+    width: 10vw;
     height: 89vh;
     border-right: 5px solid var(--dark);
     padding: 20px;
@@ -120,7 +116,7 @@ header h2 {
     height: 70px;
     background-color: var(--light);
     padding-top: 10px;
-    margin-top: 300px;
+    margin-top: 200px;
     line-height: 1.5;
     color: var(--dark);
 }
@@ -130,8 +126,8 @@ header h2 {
     background-image: url(../images/pexels-adrian-regeci-13629582.jpg);
     background-size: cover;
     background-position: center;    
-    height: 400px;
-    width: 80vw;
+    height: 300px;
+    width: 60vw;
     border: 10px solid var(--light);
 }
 
@@ -141,7 +137,7 @@ header h2 {
     height: 70px;
     background-color: var(--light);
     padding-top: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     line-height: 1.5;
     color: var(--dark);
 }
@@ -151,8 +147,8 @@ header h2 {
     background-image: url(../images/pexels-josh-kobayashi-4083523.jpg);
     background-size: cover;
     background-position: center;    
-    height: 200px;
-    width: 47%;
+    height: 150px;
+    width: 40%;
     border: 10px solid var(--light);
 }
 
@@ -161,8 +157,8 @@ header h2 {
     background-image: url(../images/pexels-ivan-kazlouski-12175805.jpg);
     background-size: cover;
     background-position: center;    
-    height: 200px;
-    width: 47%;
+    height: 150px;
+    width: 40%;
     border: 10px solid var(--light);
 }
 
@@ -171,8 +167,8 @@ header h2 {
     background-image: url(../images/pexels-kaan-durmuş-9457133.jpg);
     background-size: cover;
     background-position: center;    
-    height: 200px;
-    width: 47%;
+    height: 150px;
+    width: 40%;
     border: 10px solid var(--light);
 }
 
@@ -181,14 +177,14 @@ header h2 {
     background-image: url(../images/pexels-albin-berlin-919073.jpg);
     background-size: cover;
     background-position: center;    
-    height: 200px;
-    width: 47%;
+    height: 150px;
+    width: 40%;
     border: 10px solid var(--light);
 }
 
 /* Create "Contact Me" Nav box */
 .navbox_contactme {
-    width: 11vw;
+    width: 10vw;
     height: 120px;
     border-right: 5px solid var(--dark);
     padding: 20px;
@@ -212,10 +208,11 @@ header h2 {
     padding: 50px;
 }
 
-/* @media screen and (max-width: 992) {
+@media screen and (max-width: 992) {
     .cards {
         width: 100%;
     }
+}
 
 @media screen and (max-width: 768) {
     .cards {
@@ -224,4 +221,4 @@ header h2 {
     .header-background {
         background-color: orange; 
     }
-} */
+}
