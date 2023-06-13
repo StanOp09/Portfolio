@@ -23,12 +23,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Method
 A github repository was created for the project and cloned to my remote workspace. Initailly, an index.html, style.css, and relevant images were downloaded and kept in their correct folders. Stratign from scratch the structure to the webpage was built in index.html and with a linked styles.css file, the webpages was styled to make it presentable and accessible on computer screens through tablet screens to mobile phone screens.
 
-The GitHub repository can be found at
+The GitHub repository can be found at https://github.com/StanOp09/Project2
 
-The live website is hosted at
+The live website is hosted at https://stanop09.github.io/Project2/
 
 ## Appearance and Web Functionality
 image.png
 
 ## Credits
 Sean Roshan
+https://www.pexels.com/ (Accessed 12th June 2023)
