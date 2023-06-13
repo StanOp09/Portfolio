@@ -127,7 +127,7 @@ header h2 {
     background-size: cover;
     background-position: center;    
     height: 300px;
-    width: 60vw;
+    width: 78vw;
     border: 10px solid var(--light);
 }
 
@@ -148,7 +148,7 @@ header h2 {
     background-size: cover;
     background-position: center;    
     height: 150px;
-    width: 40%;
+    width: 46%;
     border: 10px solid var(--light);
 }
 
@@ -158,7 +158,7 @@ header h2 {
     background-size: cover;
     background-position: center;    
     height: 150px;
-    width: 40%;
+    width: 46%;
     border: 10px solid var(--light);
 }
 
@@ -168,7 +168,7 @@ header h2 {
     background-size: cover;
     background-position: center;    
     height: 150px;
-    width: 40%;
+    width: 46%;
     border: 10px solid var(--light);
 }
 
@@ -178,17 +178,17 @@ header h2 {
     background-size: cover;
     background-position: center;    
     height: 150px;
-    width: 40%;
+    width: 46%;
     border: 10px solid var(--light);
 }
 
 /* Create "Contact Me" Nav box */
 .navbox_contactme {
-    width: 10vw;
+    width: 12vw;
     height: 120px;
     border-right: 5px solid var(--dark);
     padding: 20px;
-    margin: 30px;
+    margin: 0px;
     line-height: 1.5;
     text-align: right;
     font-size: 300%;
@@ -197,28 +197,33 @@ header h2 {
 /* Created general styling of Contact Me section */
 .list-format {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 /* Created styling of Contact Me lists */
 .list-format li {
     list-style-type: none;
-    margin: 0 70px;
+    margin: 0 20px;
     font-size: 150%;
     padding: 50px;
 }
 
-@media screen and (max-width: 992) {
-    .cards {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768) {
+@media screen and (max-width: 992px) {
     .cards {
         width: 100%;
     }
     .header-background {
-        background-color: orange; 
+        background-color: rgb(3, 43, 56);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        width: 100%;
+    }
+    .header-background {
+        background-color: rgb(56, 38, 5); 
     }
 }
