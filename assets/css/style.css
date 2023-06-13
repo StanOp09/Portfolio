@@ -71,14 +71,14 @@ header h2 {
 
 /* Create "About Me" Nav box */
 .navbox_aboutme {
-    width: 11vw;
+    width: 14vw;
     height: 120px;
     border-right: 5px solid var(--dark);
     padding: 20px;
     margin: 30px;
     line-height: 1.5;
     text-align: right;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Create and style paragraph */
@@ -97,7 +97,7 @@ header h2 {
     padding: 20px;
     margin: 30px;
     text-align: right;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Define container characteristics for sub-boxes for each project title */
@@ -142,56 +142,46 @@ header h2 {
     color: var(--dark);
 }
 
-/* Inserted image for "Astin Martin Project Report" */
-.box3-image {
-    background-image: url(../images/pexels-josh-kobayashi-4083523.jpg);
+/* Set the width and height of smaller images */
+.boxstyle {
     background-size: cover;
     background-position: center;    
     height: 150px;
     width: 46%;
     border: 10px solid var(--light);
+}
+
+/* Inserted image for "Astin Martin Project Report" */
+.box3-image {
+    background-image: url(../images/pexels-josh-kobayashi-4083523.jpg);
+
 }
 
 /* Inserted image for "1987 Jaguar Project Report" */
 .box4-image {
     background-image: url(../images/pexels-ivan-kazlouski-12175805.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 150px;
-    width: 46%;
-    border: 10px solid var(--light);
 }
 
 /* Inserted image for "The Hummer Project Report" */
 .box5-image {
     background-image: url(../images/pexels-kaan-durmuş-9457133.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 150px;
-    width: 46%;
-    border: 10px solid var(--light);
 }
 
 /* Inserted image for "Sports Cars Project Report" */
 .box6-image {
     background-image: url(../images/pexels-albin-berlin-919073.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 150px;
-    width: 46%;
-    border: 10px solid var(--light);
 }
 
 /* Create "Contact Me" Nav box */
 .navbox_contactme {
     width: 12vw;
-    height: 120px;
+    height: 80px;
     border-right: 5px solid var(--dark);
     padding: 20px;
     margin: 0px;
     line-height: 1.5;
     text-align: right;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Created general styling of Contact Me section */
