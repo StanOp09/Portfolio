@@ -28,6 +28,7 @@ The GitHub repository can be found at
 The live website is hosted at
 
 ## Appearance and Web Functionality
+image.png
 
 ## Credits
 Sean Roshan
