@@ -28,7 +28,7 @@ The GitHub repository can be found at https://github.com/StanOp09/Project2
 The live website is hosted at https://stanop09.github.io/Project2/
 
 ## Appearance and Web Functionality
-![image](https://github.com/StanOp09/Project2/assets/86489635/f2449a1d-f902-443f-9681-d8ea1aed8149)
+![Portfolio web image](image.png)
 
 ## Credits
 Sean Roshan
