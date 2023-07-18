@@ -123,12 +123,13 @@ header h2 {
 
 /* Inserted image for "Alpha Romeo Project Report" */
 .box2-image {
-    background-image: url(../images/pexels-adrian-regeci-13629582.jpg);
+    background-image: url(../images/pexels-oleksandr-canary-islands-1008155.jpg);
     background-size: cover;
     background-position: center;    
     height: 300px;
     width: 78vw;
     border: 10px solid var(--light);
+    margin-bottom: 20px;
 }
 
 /* Set the width and height of smaller boxes */
@@ -154,7 +155,8 @@ header h2 {
 /* Inserted image for "Astin Martin Project Report" */
 .box3-image {
     background-image: url(../images/pexels-josh-kobayashi-4083523.jpg);
-
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 /* Inserted image for "1987 Jaguar Project Report" */
@@ -165,6 +167,7 @@ header h2 {
 /* Inserted image for "The Hummer Project Report" */
 .box5-image {
     background-image: url(../images/pexels-kaan-durmuş-9457133.jpg);
+    margin-right: 10px;
 }
 
 /* Inserted image for "Sports Cars Project Report" */
