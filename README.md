@@ -25,7 +25,7 @@ A github repository was created for the project and cloned to my remote workspac
 
 The GitHub repository can be found at https://github.com/StanOp09/Project2
 
-The live website is hosted at https://stanop09.github.io/Project2/
+The live website is hosted at https://stanop09.github.io/Portfolio/
 
 ## Appearance and Web Functionality
 ![Portfolio web image](image.png)
